@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrijan Poudel | Portfolio</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Shrijan Poudel</h1>
+        </div>
+
+        <!-- Navigation -->
+        <nav>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                ☰
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="videoDemo.html">Video Demo</a></li>
+                <li><a href="sitereport.html">Site Report</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Hi, I’m Shrijan 👋</h2>
+            <p>
+                Welcome to my portfolio website.  
+                This site showcases my journey in learning web development,
+                including HTML, CSS, responsive design, and GitHub version control.
+            </p>
+        </section>
+
+        <!-- About Section -->
+        <section class="about">
+            <h3>About This Portfolio</h3>
+            <p>
+                This portfolio has been created as part of the CSY1063 Web Development module.
+                It demonstrates my understanding of modern web standards, semantic HTML,
+                responsive layouts, and design principles.
+            </p>
+            <p>
+                Over the course of this module, I learned how to structure web pages correctly,
+                debug code, validate HTML and CSS, and improve user experience across devices.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h3>Skills Developed</h3>
+            <ul>
+                <li>HTML5 & Semantic Markup</li>
+                <li>CSS3 & Responsive Design</li>
+                <li>CSS Grid & Flexbox</li>
+                <li>Git & GitHub Version Control</li>
+                <li>Debugging & Validation</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Shrijan Poudel | CSY1063 Web Development</p>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        const toggleBtn = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        toggleBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('show');
+        });
+    </script>
+
+</body>
+</html>
