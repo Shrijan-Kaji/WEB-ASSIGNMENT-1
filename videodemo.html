@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Demo | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo"><h1>Shrijan Poudel</h1></div>
+    <nav>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="videoDemo.html" class="active">Video Demo</a></li>
+            <li><a href="sitereport.html">Site Report</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Video Demonstration</h2>
+        <p>
+            Watch my video demonstration explaining the website design,
+            HTML structure, and CSS concepts used.
+        </p>
+
+        <!-- Replace with your real video link -->
+        <p>
+            <a href="https://www.youtube.com/" target="_blank">
+                Click here to watch the video demonstration
+            </a>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Shrijan Poudel</p>
+</footer>
+
+<script>
+    document.querySelector('.menu-toggle').onclick = () => {
+        document.querySelector('.nav-links').classList.toggle('show');
+    };
+</script>
+
+</body>
+</html>
