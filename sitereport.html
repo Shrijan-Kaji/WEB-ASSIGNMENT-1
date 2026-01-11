@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Report | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo"><h1>Shrijan Poudel</h1></div>
+    <nav>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="videoDemo.html">Video Demo</a></li>
+            <li><a href="sitereport.html" class="active">Site Report</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Site Report</h2>
+
+        <p>
+            Throughout the CSY1063 Web Development module, I learned the fundamentals
+            of building modern, responsive websites using HTML and CSS. At the start,
+            understanding semantic HTML tags was challenging, especially knowing when
+            to use elements such as <code>header</code>, <code>nav</code>, and <code>section</code>.
+            However, with practice, my confidence improved significantly.
+        </p>
+
+        <p>
+            One of the most valuable skills I developed was using CSS Grid and media
+            queries to create responsive layouts. Designing for mobile first made me
+            rethink layout structure and navigation. Implementing a hamburger menu
+            was initially difficult, but debugging helped me understand how CSS and
+            JavaScript interact.
+        </p>
+
+        <p>
+            I chose a simple color palette with blue and dark tones to keep the website
+            professional and readable. The design was influenced by modern portfolio
+            websites that prioritize simplicity and usability. Fonts were kept default
+            for accessibility and clarity.
+        </p>
+
+        <p>
+            GitHub usage was an important part of this project. Making regular commits
+            helped me track progress and fix mistakes easily. Validation using W3C tools
+            ensured that all HTML and CSS files followed web standards.
+        </p>
+
+        <p>
+            Video demonstration link:
+            <a href="https://www.youtube.com/" target="_blank">View Video</a>
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Shrijan Poudel</p>
+</footer>
+
+<script>
+    document.querySelector('.menu-toggle').onclick = () => {
+        document.querySelector('.nav-links').classList.toggle('show');
+    };
+</script>
+
+</body>
+</html>
